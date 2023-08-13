@@ -4,7 +4,7 @@ import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 
 const Navigation = () => {
     return (
-        <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+        <Navbar expand="lg" className="navbar navbar-expand-lg navbar-dark shadow-5-strong" >
             <Container>
                 <Navbar.Brand href="#home" className="d-flex">
                     <img
