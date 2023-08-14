@@ -1,0 +1,29 @@
+.testimony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+.slide-container {
+    position: relative;
+    width: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+}
+
+/* .card-wrapper {
+    position: relative;
+    margin-top: 30px;
+} */
+
+.card {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background: #fff;
+    border-radius: 8px;
+}
