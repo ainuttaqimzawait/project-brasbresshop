@@ -16,6 +16,57 @@ body {
     color: rgb(185, 182, 175);
 }
 
-.image-brand {
+/* .image-brand {
     border-radius: 100%;
+} */
+
+#navLink {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 35px;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+}
+
+#navbarScrollingDropdown {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 35px;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+}
+
+.contactHome {
+    background-color: black;
+    height: 150px;
+    width: 80vw;
+    position: absolute;
+    margin-top: -150px;
+}
+
+.footerHome {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.contact-home {
+    display: flex;
+}
+
+.contact-home p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.alamat-home {
+    display: flex;
+    width: 20vw;
+    margin-left: 5vw;
+}
+
+.time-home {
+    display: flex;
+    width: 20vw;
+    margin-left: 5vw;
 }

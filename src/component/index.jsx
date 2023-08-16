@@ -1,9 +1,10 @@
-import Footer from "./footer";
 import About from "./komponen/about";
+import Footer from "./komponen/footer";
 import Home from "./komponen/home";
 import Location from "./komponen/location";
 import Navigation from "./komponen/navbar";
-import Testimony from "./komponen/testimony";
+import Showcard from "./komponen/pelayanan/showcard";
+// import Testimony from "./komponen/testimony";
 import "./style.css"
 
 const Componen = () => {
@@ -12,7 +13,8 @@ const Componen = () => {
             <Navigation />
             <Home />
             <About />
-            <Testimony />
+            {/* <Testimony /> */}
+            <Showcard />
             <Location />
             <Footer />
         </div>

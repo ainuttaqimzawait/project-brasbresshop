@@ -1,24 +1,50 @@
 .testimony {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: aqua;
+}
+
+.card {
+    display: "block";
+    position: relative;
+    height: "100px";
+    width: "100px";
+    background-color: "red";
+}
+
+.testimony h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
 }
 
 .slide-container {
-    position: relative;
-    width: 450px;
-    width: 1075px;
+    width: 90%;
     display: flex;
     align-items: center;
+    text-align: center;
+    overflow-x: auto;
+    margin: auto;
 }
 
-/* .card-wrapper {
-    position: relative;
+.slide-container::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes slidein {
+    from {
+        display: block;
+    }
+
+    to {
+        display: none;
+    }
+}
+
+.card-wrapper {
+    display: flex;
     margin-top: 30px;
-} */
+    justify-content: center;
+}
 
 .card {
     position: relative;
@@ -26,4 +52,18 @@
     width: 300px;
     background: #fff;
     border-radius: 8px;
+    margin: 10px 10px;
+    animation: slidein 2s ease infinite;
+}
+
+.navigation .prev {
+    position: absolute;
+    margin-top: -5vh;
+    left: 10vh;
+}
+
+.navigation .next {
+    position: absolute;
+    margin-top: -5vh;
+    right: 10vh;
 }
